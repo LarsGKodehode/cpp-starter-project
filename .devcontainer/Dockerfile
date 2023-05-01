@@ -8,4 +8,5 @@ RUN apt-get update -qq && export DEBIAN_FRONTEND=noninteractive && \
 # Install Cpp project packages
 RUN apt-get update -qq && export DEBIAN_FRONTEND=noninteractive && \
     apt-get install -y --no-install-recommends \
-    gcc
+    gcc g++ \
+    libc6-dev
