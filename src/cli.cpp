@@ -6,9 +6,13 @@
 
 int main(int argc, char const *argv[])
 {
-  // argc is the number of arguments passed in
-  // argv is an vector with the values of those arguments
-  for (int i = 0; i < argc; i++)
+  // argc is the number of arguments passed to the program
+  // argv is a vector with the values of those arguments
+
+  // First entry of argv is the name of the program
+  LOG(argv[0]);
+
+  for (int i = 1; i < argc; i++)
   {
     LOG(argv[i]);
   }
