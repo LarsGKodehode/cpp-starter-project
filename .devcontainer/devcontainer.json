@@ -8,6 +8,10 @@
 	},
 	"customizations": {
 		"vscode": {
+			"settings": {
+				// Set *default* container specific settings.json values on container create.
+				"cmake.configureOnOpen": true
+			},
 			// Setup recommended extensions
 			"extensions": [
 				"ms-vscode.cpptools",
