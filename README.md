@@ -2,6 +2,12 @@
 
 A simple devcontainer that comes with compilers for C and C++.
 
+## Content
+
+- [Test it](#test-it)
+- [Prerequisites](#prequisite)
+- [Resources](#resources)
+
 ## Test it
 
 1. Clone repository and start a [devcontainer](https://code.visualstudio.com/docs/devcontainers/tutorial) in VS Code.
@@ -22,3 +28,16 @@ helloWorld
 ## Prequisite
 
 - Some way to run containers, simplest is probably [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+## Resources
+
+The docs section contains information and, possibly, introductory tutorials for how to use them.
+References are far more technical. I recommend reading the headlines of the various standard libraries, to acquaint yourself with the structure of the languages, and to know where to look for information for **when** you get stuck.
+
+- Docs
+  - [GCC](https://gcc.gnu.org/onlinedocs/)
+  - [CMake](https://cmake.org/documentation/)
+
+- References
+  - [C](https://en.cppreference.com/w/c)
+  - [C++](https://en.cppreference.com/w/cpp)
