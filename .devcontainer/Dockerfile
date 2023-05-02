@@ -11,7 +11,7 @@ RUN apt-get install -y --no-install-recommends \
 RUN apt-get install -y --no-install-recommends \
     gcc g++
 
-# Install project build tools
+# Install project tools
 RUN apt-get install -y --no-install-recommends \
     cmake ninja-build
 
