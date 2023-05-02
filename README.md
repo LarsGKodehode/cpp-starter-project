@@ -29,7 +29,7 @@ helloWorld
 
 ## [CMake](https://cmake.org/)
 
-CMake is a build system for building, testing and packaging software. It is installed in the [devcontainer](.devcontainer/Dockerfile) under build tools, and uses the [CMakeLists.txt](CMakeLists.txt) spread around the repository.
+CMake is a build system generator for building, testing and packaging software. It is installed in the [devcontainer](.devcontainer/Dockerfile) under build tools, and uses the [CMakeLists.txt](CMakeLists.txt) spread around the repository.
 
 To use:
 1. Run the CMake configuration to setup CMake, [VS Code Command Palett](https://code.visualstudio.com/api/ux-guidelines/command-palette) > CMake: Configure. And select gcc as the compiler. <br>
