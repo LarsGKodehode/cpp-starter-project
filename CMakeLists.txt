@@ -1,16 +1,17 @@
 cmake_minimum_required(VERSION 3.18)
 
 # set the project name and version
-project(CPPStarter VERSION 0.1)
+project(
+  CPPStarter
+  VERSION 0.2.0
+)
 
-# configure a header file to pass the version number
-configure_file(src/AppConfig.h.in AppConfig.h)
+# Enforce C++ standar version
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# add the executable
-add_executable(CPPStarter src/main.cpp)
+# configure files based on CMake configuration options
+add_subdirectory(configured_files)
 
-# add the binary tree to the search path for include files
-# so that we will find TutorialConfig.h
-target_include_directories(CPPStarter PUBLIC
-                           "${PROJECT_BINARY_DIR}"
-                           )
+# Adding the src:
+add_subdirectory(src)
