@@ -1,7 +1,8 @@
 FROM debian:bullseye-slim
 
-# Update local package cache & TODO ???
+# Update local package cache and configure the interface for automation
 RUN apt-get update -qq && export DEBIAN_FRONTEND=noninteractive
+
 # Basic packages
 RUN apt-get install -y --no-install-recommends \
     git
@@ -14,6 +15,7 @@ RUN apt-get install -y --no-install-recommends \
 RUN apt-get install -y --no-install-recommends \
     cmake ninja-build
 
-# Add extra C and C++ libraries
+# If you need extra packages for your project add them to
+# this layer
 RUN apt-get install -y --no-install-recommends \
     libc6-dev
