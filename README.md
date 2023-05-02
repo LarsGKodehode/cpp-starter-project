@@ -73,4 +73,6 @@ References are far more technical. I recommend reading the headlines of the vari
 
 - References
   - [C](https://en.cppreference.com/w/c)
+  - [C Standard Library Headers](https://en.cppreference.com/w/c/header)
   - [C++](https://en.cppreference.com/w/cpp)
+  - [C++ Standard Library Headers](https://en.cppreference.com/w/cpp/header)
